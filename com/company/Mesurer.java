@@ -5,7 +5,7 @@ package com.company;
  */
 public class Mesurer {
     static double distance ( Point A, Point B){
-        return Math.sqrt( Math.pow(B.getX() - A.getX(),2.0d) + Math.pow(B.getX() - A.getX() ,2.0d) );
+        return Math.sqrt( Math.pow(B.getX() - A.getX(),2.0d) + Math.pow(B.getY() - A.getY() ,2.0d) );
     }
 
 }
