@@ -24,13 +24,18 @@ public class Main {
 
         System.out.println(" The square of rectangle A = " + Rec1.getA() + "B = " + Rec1.getB() + " is " + Rec1.getSquare());
 
-        Temperature Conv;
-
         final double TF = 27.0d;
         final double TC = 12.6d;
 
         System.out.println(" Tf " + TF + " = " + Temperature.FtoC(TF) + " C");
-        System.out.println(" Tc " + TC + " = " + Temperature.CtoF(TF) + " F");
+        System.out.println(" Tc " + TC + " = " + Temperature.CtoF(TC) + " F");
+
+        Point PointA = new Point( 1d, 2d );
+        Point PointB = new Point( 8d, 6d );
+
+
+        System.out.println(" The distance between A to B is " + Mesurer.distance(PointA, PointB));
+
 
     }
 }
