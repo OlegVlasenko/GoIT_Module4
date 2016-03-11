@@ -33,9 +33,7 @@ public class Main {
         Point PointA = new Point( 1d, 2d );
         Point PointB = new Point( 8d, 6d );
 
-
         System.out.println(" The distance between A to B is " + Mesurer.distance(PointA, PointB));
-
 
     }
 }
