@@ -4,8 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        final double RADIUS = 25.0d;
-        Circle Cir1 = new Circle(RADIUS);
+        Circle Cir1 = new Circle(25.0d);
 
         System.out.println("The square of circle " + Cir1.getRadius() + " is " + Cir1.getSquare());
 
